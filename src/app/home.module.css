@@ -1,0 +1,46 @@
+.container{
+display: flex;
+gap: 100;
+}
+
+.textContainer{
+    flex: 1;
+}
+.title{
+    font-size: 70px;
+}
+.desc{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.buttons{
+    
+    display: flex;
+    gap: 20px;
+}
+.button{
+    padding: 20px;
+    min-width: 120px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button:first-child{
+    background: var(--btn);
+    color: var(--text);
+}
+.brands{
+    margin-top: 2rem;
+    width: 400px;
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgContainer{
+    flex: 1;
+    position: relative;
+}
